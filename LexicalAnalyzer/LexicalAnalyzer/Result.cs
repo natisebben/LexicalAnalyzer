@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Linq;
+using System.Text;
 
 namespace LexicalAnalyzer
 {
@@ -34,26 +35,26 @@ namespace LexicalAnalyzer
             return result.ToString(); 
         }
 
-        public string GetResultHeader()
+        public static string GetResultHeader()
         {
             var resultHeader = new StringBuilder();
 
             var tokenTypeHeader = "Token Type: ";
             var tokenHeader = "Token: ";
-            var lineHeader = "Token Type: ";
-            var startColumnHeader = "Token Type: ";
-            var finalColumnHeader = "Token Type: ";
+            var lineHeader = "Line: ";
+            var startColumnHeader = "Start Column: ";
+            var finalColumnHeader = "Final Column: ";
 
             resultHeader.Append($"{tokenTypeHeader}{DefineSpacing(SPACING_25 - tokenTypeHeader.Length)}");
             resultHeader.Append($"{tokenHeader}{DefineSpacing(SPACING_25 - tokenHeader.Length)}");
-            resultHeader.Append($"{lineHeader}{DefineSpacing(SPACING_20 - lineHeader.Length)}");
+            resultHeader.Append($"{lineHeader}{DefineSpacing(SPACING_10 - lineHeader.Length)}");
             resultHeader.Append($"{startColumnHeader}{DefineSpacing(SPACING_20 - startColumnHeader.Length)}");
-            resultHeader.Append($"{finalColumnHeader}{DefineSpacing(SPACING_10 - finalColumnHeader.Length)}");
+            resultHeader.Append($"{finalColumnHeader}{DefineSpacing(SPACING_20 - finalColumnHeader.Length)}");
 
             return resultHeader.ToString();
         }
 
-        private string DefineSpacing(int fullSize) =>
+        private static string DefineSpacing(int fullSize) =>
             string.Join(string.Empty, Enumerable.Range(0, fullSize).Select(x => ' '));
     }
 }

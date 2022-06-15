@@ -257,5 +257,12 @@ namespace LexicalAnalyzer
 		[Description("Brace Close")]
 		BRACECLOSE,
 
-    }
+		[Display(Name = "~")]
+		[Description("Negate")]
+		NEGATE,
+
+		[Display(Name = "^")]
+		[Description("Exclusive Or")]
+		XOR,
+	}
 }

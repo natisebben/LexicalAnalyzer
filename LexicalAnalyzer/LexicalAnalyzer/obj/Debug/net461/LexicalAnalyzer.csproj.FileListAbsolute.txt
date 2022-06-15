@@ -1,0 +1,5 @@
+/Users/leonardomartelli/repos/LexicalAnalyzer/LexicalAnalyzer/LexicalAnalyzer/obj/Debug/net461/LexicalAnalyzer.csproj.SuggestedBindingRedirects.cache
+/Users/leonardomartelli/repos/LexicalAnalyzer/LexicalAnalyzer/LexicalAnalyzer/obj/Debug/net461/LexicalAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardomartelli/repos/LexicalAnalyzer/LexicalAnalyzer/LexicalAnalyzer/obj/Debug/net461/LexicalAnalyzer.AssemblyInfoInputs.cache
+/Users/leonardomartelli/repos/LexicalAnalyzer/LexicalAnalyzer/LexicalAnalyzer/obj/Debug/net461/LexicalAnalyzer.AssemblyInfo.cs
+/Users/leonardomartelli/repos/LexicalAnalyzer/LexicalAnalyzer/LexicalAnalyzer/obj/Debug/net461/LexicalAnalyzer.csproj.CoreCompileInputs.cache

@@ -1,4 +1,7 @@
-﻿namespace LexicalAnalyzer
+﻿using System;
+using System.Collections.Generic;
+
+namespace LexicalAnalyzer
 {
     public class LexicalAnalyzer
     {
@@ -11,6 +14,8 @@
         {
             if (state.AnalyzeStream == null)
                 return;
+
+            state.WriteHeader();
 
             do
             {
@@ -102,6 +107,14 @@
                     return GetTokenResult(state, Token.SEMICOLLON);
                 case ',':
                     return GetTokenResult(state, Token.COMMA);
+                case '~':
+                    return GetTokenResult(state, Token.NEGATE);
+                case '^':
+                    return GetTokenResult(state, Token.XOR);
+                case ':':
+                    return GetTokenResult(state, Token.COLLON);
+                case '.':
+                    return GetTokenResult(state, Token.DOT);
                 case '=':
                     return GetInitialSymbolTokenResultCheckingPossibilities(
                         state,

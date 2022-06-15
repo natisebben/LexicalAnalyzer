@@ -1,4 +1,7 @@
-﻿namespace LexicalAnalyzer
+﻿using System;
+using System.IO;
+
+namespace LexicalAnalyzer
 {
     public class Program
     {
@@ -6,7 +9,7 @@
         {
             using var input = new StreamReader(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"sourcecodetest.txt"));
 
-            var resultFile = File.CreateText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"{DateTime.Now:yyyyMMddhhmmss}.lexi"));
+            using var resultFile = File.CreateText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"{DateTime.Now:yyyyMMddhhmmss}.lexi"));
 
             var lexicalAnalyser = new LexicalAnalyzer();
 

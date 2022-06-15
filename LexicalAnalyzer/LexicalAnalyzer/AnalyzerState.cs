@@ -1,4 +1,6 @@
-﻿namespace LexicalAnalyzer
+﻿using System.IO;
+
+namespace LexicalAnalyzer
 {
     public class AnalyzerState
     {
@@ -65,6 +67,12 @@
                 ResultStream.Close();
             }
         }
+
+        public void WriteHeader()
+        {
+            ResultStream.WriteLine(Result.GetResultHeader());
+        }
+
 
         public void DefineTokenType(TokenType tokenType)
         {
