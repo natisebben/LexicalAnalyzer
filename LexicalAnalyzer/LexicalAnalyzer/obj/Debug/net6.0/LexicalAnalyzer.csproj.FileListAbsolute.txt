@@ -1,0 +1,15 @@
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\net6.0\LexicalAnalyzer.exe
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\net6.0\LexicalAnalyzer.deps.json
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\net6.0\LexicalAnalyzer.runtimeconfig.json
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\net6.0\LexicalAnalyzer.dll
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\net6.0\LexicalAnalyzer.pdb
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.csproj.AssemblyReference.cache
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.AssemblyInfoInputs.cache
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.AssemblyInfo.cs
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.dll
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\refint\LexicalAnalyzer.dll
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.pdb
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\LexicalAnalyzer.genruntimeconfig.cache
+C:\Users\sebbna\Desktop\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\net6.0\ref\LexicalAnalyzer.dll
